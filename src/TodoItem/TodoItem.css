@@ -1,0 +1,31 @@
+.TodoItem{
+    border-bottom: 2px solid var(--grey);
+    padding: 1rem 2rem;
+    margin: 0 0 2rem 0;
+    list-style: none;
+    display: flex;
+    justify-content: start;
+}
+.checkbox{
+    font-size: 1.5rem;
+}
+.active{
+    text-decoration: line-through;
+    color: var(--grey);
+}
+p{
+    padding: 0 2rem 0 1rem;
+    font-size: var(--FontSize-m);
+    font-weight: 700;
+}
+span{
+    font-size: 1.2rem;
+}
+.remove:active{
+    transform: translateY(5px) rotate(180deg) scale(1.5);
+}
+/* Tarea completada */
+.hecho{
+    text-decoration: line-through;
+    color: var(--grey);
+}

@@ -1,0 +1,21 @@
+.ContainerTodoSearch{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 5.5rem;
+}
+.TodoSearch{
+    background-color: var(--grey);
+    text-align: center;
+    width: 20rem;
+    padding: .4rem;
+    margin: .3rem 0;
+    border: none;
+    border-radius: .5rem;
+    border: 2px solid var(--black);
+    text-transform: none;
+}
+p{
+    text-transform: none;
+}

@@ -1,0 +1,10 @@
+.TodoList{
+    background-color: var(--white);
+    display: flex;
+    font-size: var(--FontSize-s);
+    flex-direction: column;
+    margin-top: 1rem;
+}
+.TodoList__ul{
+    overflow-y: auto;
+}

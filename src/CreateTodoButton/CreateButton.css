@@ -1,0 +1,20 @@
+.button_add{
+    background-color: #F1F0C0;
+    border: 2px solid var(--black);
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 3rem;
+    padding:0 1rem .5rem 1rem ;   
+    position: absolute;
+    z-index: 1;
+    bottom: 5rem;
+    right: 5rem; 
+    transition: all .5s;
+}
+
+.button_add:active{
+    background-color:rgb(55, 174, 55);
+    transition: all .1s;
+    color: var(--white);
+    transform: scale(1.1)
+}

@@ -1,0 +1,36 @@
+.form_modal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 25rem;
+    width: 25rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: rgba(226, 219, 219, 0.8) 0px 5px 15px;
+}
+.label{
+    margin: 1rem;
+    color: #000;
+    font-weight:bold;
+    font-size: 1.5rem;
+    text-transform: none;
+}
+.text_area{
+    border: 1px solid #000;
+    height: 13rem;
+    padding: .5rem;
+    width: 90%;
+    text-transform: none;
+}
+.btn_onCancel,
+.btn_onSubmit{
+    margin: 1rem;
+    padding: .5rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.3rem;
+}
+.btn_onSubmit{
+    background-color: #99db8f;
+}
